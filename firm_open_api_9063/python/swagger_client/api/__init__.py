@@ -1,0 +1,9 @@
+from __future__ import absolute_import
+
+# flake8: noqa
+
+# import apis into api package
+from swagger_client.api.look_up_for_partner_balance_api import LookUpForPartnerBalanceApi
+from swagger_client.api.look_up_for_transfer_info_api import LookUpForTransferInfoApi
+from swagger_client.api.transfer_money_api import TransferMoneyApi
+from swagger_client.api.verify_customer_information_api import VerifyCustomerInformationApi
